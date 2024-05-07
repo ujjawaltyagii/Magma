@@ -1,0 +1,147 @@
+@font-face {
+    font-family: a;
+    src: url(./jost-variable.ttf);
+}
+
+@font-face {
+    font-family: b;
+    src: url(./KFOlCnqEu92Fr1MmEU9fBBc4\ \(1\).ttf);
+}
+
+@font-face {
+    font-family: c;
+    src: url(./KFOmCnqEu92Fr1Mu4mxK\ \(1\).ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    position: relative;
+    overflow: hidden;
+}
+
+#page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+    position: relative;
+}
+
+#page1 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+nav{
+    position: absolute;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+    padding-top: 1.5vw;
+    z-index: 1;
+}
+
+#page1>nav>img{
+    margin-top: -3.3vw;
+    margin-left: -8vw;
+    width: 13.5%;
+}
+
+#right-nav>button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #0b48ed;
+    border: 1px solid rgba(255, 255, 255, 0.473);
+    color: white;
+    font-family: a;
+    font-size: 14px;
+    transition: all ease 0.3s;
+}
+
+#right-nav>button:nth-child(1){
+    margin-right: 1.1vw;
+}
+
+#right-nav>button:nth-child(1):hover{
+    background-color: white;
+    color:  #0b48ed;
+    cursor: pointer;
+}
+
+#right-nav>button:nth-child(2):hover{
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+#bottom-p1{
+    position: absolute;
+    bottom: 12%;
+    left: 9%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 45vh;
+    width: 50vw;
+    z-index: 1;
+}
+
+#bottom-p1>h1{
+    font-family: a;
+    font-size: 6.5vw;
+    font-weight: 100;
+    line-height: 1;
+    color: white;
+}
+
+.bottom-p1-d{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    color: white;
+    font-family: a;
+    width: 75%;
+}
+
+.bottom-p1-d h4{
+    font-size: 1.3vw;
+    font-weight: 400;
+    text-transform: capitalize;
+    width: 60%;
+}
+
+.bottom-p1-d button{
+    padding: 1.1vw 2.5vw;
+    border: none;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #0b48ed;
+    font-size: 0.99vw;
+    font-family: b;
+    font-weight: 100;
+    transition: all ease 0.4s;
+}
+
+.bottom-p1-d button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#page2{
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+}
