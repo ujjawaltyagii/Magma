@@ -32,7 +32,6 @@ html, body{
 #page1{
     height: 100vh;
     width: 100vw;
-    background-color: red;
     position: relative;
 }
 
@@ -143,5 +142,40 @@ nav{
 #page2{
     height: 100vh;
     width: 100vw;
-    background-color: #fff;
+    background-color: #0A3CCE;
+    position: relative;
+    font-family: a;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 0vw 9vw;
+    color: white;
+}
+
+
+#page2 h2{
+    font-weight: 100;
+    font-size: 1.3vw;
+    margin-bottom: 2vw;
+}
+
+#page2 h1{
+    font-weight: 100;
+    width: 98%;
+    font-size: 3.8vw;
+    color: #dadada69;
+}
+
+#page3{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+
+#page3>canvas{
+    max-height: 100vh;
+    max-width: 100vw;
+    position: relative;
 }
