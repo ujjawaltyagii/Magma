@@ -295,3 +295,438 @@ nav{
     width: 100%;
     object-fit: cover;
 }
+
+.page8-bottom{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-family: a;
+    z-index: 9;
+}
+
+.page8-bottom h1{
+    color: white;
+    margin-bottom: 2vw;
+    font-size: 5.5vw;
+    font-weight: 100;
+}
+
+.page8-bottom button{
+    padding: 15px 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+    color: #0A3CCE;
+    font-weight: 500;
+    transition: all ease 0.3s;
+}
+
+.page8-bottom button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+#page9{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0a3cce;
+    display: flex;
+}
+
+.p9-left{
+    height: 100%;
+    width: 40%;
+    position: relative;
+}
+
+.p9-right{
+    height: 100%;
+    width: 60%;
+    position: relative;
+}
+
+.p9-left h1{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    transform: translateY(-60%);
+    font-size: 6vw;
+    font-weight: 100;
+    color: white;
+    font-family: a;
+    line-height: 6vw;
+}
+
+.p9-r-pic{
+    height: 65%;
+    width: 85%;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-image: url(https://thisismagma.com/wp-content/uploads/2023/04/magma.wp2.cubdev.com-home-1.jpeg);
+    background-size: cover;
+}
+
+#page10{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0a3cce;
+}
+
+.right10{
+    height: 100%;
+    width: 60%;
+    position: relative;
+    left: 40%;
+}
+
+.right10-inner{
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    flex-direction: column;
+    height: 33.3%;
+    width: 100%;
+    font-family: a;
+    color: white;
+}
+
+.right10-inner h1{
+    font-size: 1.8vw;
+    font-weight: 500;
+    margin-bottom: .7vw;
+}
+
+.right10-inner p{
+    font-size: 1.5vw;
+    width: 80%;
+    color: rgba(255, 255, 255, 0.699);
+}
+
+#page11{
+    position: relative;
+    width: 100vw;
+    height: 120vh;
+    background-color: white;
+    padding-bottom: 3vw;
+}
+
+#page11>h1{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    font-size: 4vw;
+    color: black;
+    font-weight: 100;
+    font-family: a;
+}
+
+.page11-inner{
+    display: flex;
+    top: 18%;
+    position: relative;
+    margin-bottom: 2vw;
+    height: 24%;
+    width: 100%;
+}
+
+.left11{
+    position: relative;
+    height: 100%;
+    width: 37%;
+    left: 10.2%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.left11 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.left11:hover img{
+    cursor: pointer;
+    scale: 1.05;
+    transition: all ease 0.5s;
+}
+
+.right11{
+    left: 51%;
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    font-family: c;
+}
+
+.right11 h4{
+    color: rgba(0, 0, 0, 0.507);
+    font-size: 1vw;
+    font-weight: 100;
+    margin-bottom: 2vw;
+}
+
+.right11 h1{
+    color: black;
+    font-size: 1.6vw;
+    font-weight: 100;
+}
+
+.right11:hover{
+    cursor: pointer;
+}
+
+#page12{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #02268E;
+}
+
+.p12-txt{
+    position: absolute;
+    top: 20%;
+    right: 17%;
+    color: white;
+    font-family: a;
+}
+
+.p12-txt h1{
+    font-size: 6vw;
+    font-weight: 100;
+}
+
+.p12-txt p{
+    font-size: 1.3vw;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.741);
+}
+
+#page13{
+    position: relative;
+    width: 100vw;
+    height: 50vh;
+    background-color: #0F0F17;
+    color: white;
+    font-family: a;
+    padding: 7vw 10vw;
+}
+
+#page13 h1{
+    font-size: 5vw;
+    line-height: 1;
+    font-weight: 100;
+}
+
+#page13 button{
+    padding: 1.3vw 3vw;
+    border: none;
+    background-color: #0a3cce;
+    color: white;
+    border-radius: 50px;
+    font-weight: 500;
+    margin-top: 2vw;
+    transition: all ease 0.5s;
+}
+
+#page13 button:hover{
+    cursor: pointer;
+    color: #0a3cce;
+    background-color: white;
+    font-weight: 600;
+}
+
+#page14{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0F0F17;
+    color: white;
+    padding: 7vw 10vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#p14-upper{
+    height: 60%;
+    width: 100%;
+}
+
+.p14-inner{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+    width: 100%;
+    height: 33.3%;
+    font-family: a;
+    border-top: 1px solid rgba(255, 255, 255, 0.212);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.212);
+}
+
+.p14-inner i{
+    font-size: 2.4vw;
+    font-weight: 100;
+    z-index: 99;
+}
+
+.p14-inner h1{
+    font-size: 2.4vw;
+    font-weight: 100;
+    z-index: 99;
+}
+
+.center14{
+    height: 0%;
+    width: 100%;
+    position: absolute;
+    background-color: #0a3cce;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: all ease 0.5s;
+}
+
+.p14-inner:hover .center14{
+    height: 100%;
+    cursor: pointer;
+}
+
+#p14-bottom{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 6vw;
+    height: 40%;
+    width: 100%;
+}
+
+#p14-d-l{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+}
+
+#p14-d-l a{
+    font-size: 0.9vw;
+    color: white;
+    text-decoration: none;
+    font-family: a;
+    text-transform: uppercase;
+    transition: all ease 0.3s;
+    font-weight: 100;
+}
+
+#p14-d-l a:hover{
+    text-decoration: underline;
+}
+
+
+#p14-d-r{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+#p14-d-r h2{
+    font-family: a;
+    font-weight: 100;
+}
+
+#p14-d-r #sub{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #333;
+    padding: 1.5vw 0;
+    margin-bottom: 1.5vw;
+    transition: all ease 0.3s;
+    font-family: a;
+}
+
+#p14-d-r #sub:hover{
+    border-bottom: 1px solid #dadada;
+    cursor: pointer;
+}
+
+#p14-d-r #sub h3{
+    font-size: 1.1vw;
+    font-weight: 100;
+}
+
+#p14-d-r #sub i{
+    background-color: #333;
+    padding: 0.5vw;
+    border-radius: 50%;
+}
+
+#footer{
+    position: absolute;
+    bottom: 7%;
+}
+
+#footer h3{
+    font-size: 1.1vw;
+    font-family: a;
+    font-weight: 100;
+}
+
+#moving-div{
+    position: absolute;
+    bottom: 15%;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 1.2vw;
+}
+
+#moving-div .move{
+    display: inline-block;
+    animation: doit 10s linear infinite;
+}
+
+#moving-div .move img{
+    height: 4vw;
+    margin: 0 4vw;
+}
+
+@keyframes doit{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+
+/* Responsiveness? Too lazy to do now :) */
+@media screen and (max-width: 900px){
+    body::before{
+        content: "Mobile view is NOT Available! Please open in Laptop or Desktop to view this awesome website!";
+        display: block;
+        font-size: 5.5vw;
+        width: 40%;
+        text-align: center;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%);
+        color: black;
+    }
+    #main, nav{
+        display: none;
+    }
+}

@@ -670,7 +670,7 @@ https://thisismagma.com/assets/home/lore/seq/136.webp?2
 
   gsap.to(".p7circle-inner", {
     scrollTrigger: {
-      trigger: `p7circle-inner`,
+      trigger: `.p7circle-inner`,
       start: `top center`,
       end: `bottom top`,
     //  markers: true,
